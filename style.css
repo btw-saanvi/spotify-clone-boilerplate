@@ -30,8 +30,15 @@ body{
 .right{
     padding: 0%;
     margin: 0%;
+    display: flex;
+    flex-direction: row;
     position: fixed;
-    color: beige;
+    background-color: black;
+    width: 330px;
+    height: 100%;
+    align-content: space-between;
+    color: white;
+    vertical-align: text-top;
     
 }
 
@@ -42,6 +49,6 @@ body{
     width: 45px;
 }
 
-h1{
+.right h1{
     align-items: center;
 }
